@@ -10,4 +10,5 @@
 5. График зависимости времени выполнения от кол-ва чисел в файле
 
 ![](https://github.com/maxturyev/HSE_TP/actions/workflows/main.yml/badge.svg?branch=develop)
+
 ![](Figure_1.png)

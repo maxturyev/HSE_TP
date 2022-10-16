@@ -26,21 +26,21 @@ jobs:
         run: python -m unittest tests
                
   sending_message:
-      runs-on: ubuntu-latest
-      needs: [test]
+        runs-on: ubuntu-latest
+        needs: [test]
 
-      steps:
-        - name: "Telegram Notification, when test is successed"
-          uses: "appleboy/telegram-action@master"
-          if: ${{ success() }}
-          with:
-            to: ${{ secrets.TP2_CHATID }}
-            token: ${{ secrets.TP2_TOKEN }}
-            args: Все ок
-        - name: "When tests are failed"
-          uses: appleboy/telegram-action@master
-          if: ${{ failure() }}
-          with:
-            to: ${{ secrets.TZ2_CHAT_ID }}
-            token: ${{ secrets.TZ2_TOKEN }}
-            message: "возникла проблема: ${{ steps.tests.outputs.stderr }}"
+        steps:
+          - name: "Telegram Notification, when test is successed"
+            uses: "appleboy/telegram-action@master"
+            if: ${{ success() }}
+            with:
+              to: ${{ secrets.TP2_CHATID }}
+              token: ${{ secrets.TP2_TOKEN }}
+              args: Все ок
+          - name: "When tests are failed"
+            uses: appleboy/telegram-action@master
+            if: ${{ failure() }}
+            with:
+              to: ${{ secrets.TZ2_CHAT_ID }}
+              token: ${{ secrets.TZ2_TOKEN }}
+              message: "возникла проблема: ${{ steps.tests.outputs.stderr }}"

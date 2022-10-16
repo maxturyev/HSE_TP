@@ -34,8 +34,8 @@ jobs:
             uses: "appleboy/telegram-action@master"
             if: ${{ success() }}
             with:
-              to: ${{ secrets.TP2_CHATID }}
-              token: ${{ secrets.TP2_TOKEN }}
+              to: ${{ secrets.TZ2_CHATID }}
+              token: ${{ secrets.TZ2_TOKEN }}
               args: Все ок
           - name: "When tests are failed"
             uses: appleboy/telegram-action@master

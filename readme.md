@@ -9,4 +9,4 @@
 4. Тест для проверки меньшинства минимального числа в сравнении с максимальным
 5. График зависимости времени выполнения от кол-ва чисел в файле
 
-![](https://github.com/maxturyev/HSE_TP/actions/workflows/main.yml/badge.svg)
+![](https://github.com/maxturyev/HSE_TP/actions/workflows/main.yml/badge.svg?branch=develop)

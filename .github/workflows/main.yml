@@ -27,7 +27,7 @@ jobs:
                
   sending_message:
     runs-on: ubuntu-latest
-    needs: [on_build_actions]
+    needs: [test]
 
     steps:
       - name: "Telegram Notification, when test is successed"

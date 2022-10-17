@@ -12,3 +12,5 @@
 ![](https://github.com/maxturyev/HSE_TP/actions/workflows/main.yml/badge.svg?branch=develop)
 
 ![](Figure_1.png)
+
+Ссылка на телеграм чат с ботом: https://t.me/tz2test

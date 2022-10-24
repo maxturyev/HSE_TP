@@ -34,4 +34,4 @@
 - Передача заказа от клиента к ресторану и от ресторана к курьеру
 - Доставка заказа клиенту
 
-![](https://github.com/maxturyev/HSE_TP/blob/main/ТЗ%20№3/ТЗ%20№3.pdf)
+https://github.com/maxturyev/HSE_TP/blob/main/ТЗ%20№3/ТЗ%20№3.pdf
